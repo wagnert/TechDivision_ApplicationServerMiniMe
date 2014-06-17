@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<project name="TechDivision_Phar" default="deploy" basedir=".">
+<project name="TechDivision_ApplicationServerMiniMe" default="deploy" basedir=".">
     
 	<property environment="env" />
 	
     <property name="namespace" value="techdivision" />
-    <property name="module" value="phar"/>
+    <property name="module" value="applicationserverminime"/>
     <property name="codepool" value="vendor"/>
     <property name="unique.name" value="${codepool}/${namespace}/${module}" />
     <property name="php-src.dir" value="${basedir}/src" />
